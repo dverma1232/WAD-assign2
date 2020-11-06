@@ -1,0 +1,210 @@
+/* 
+filename: style.css
+author: Divanshu Verma
+created: 12/10/2020
+last modified: 23/10/2020
+*/
+/* Fade In Animation */
+* {
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 0.4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Nav Bar and Breadcrumbs */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-nav li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-nav li a {
+    text-align: left;
+    float: right;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.breadcrumb {
+    margin-bottom: 0 !important;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #555555 !important;
+    padding-bottom: 10px;
+}
+
+h2:after {
+    display: block;
+    margin: 20px auto 5px;
+    width: 100px;
+    height: 3px;
+    content: " ";
+    background-color: #007bff;
+}
+
+/* Top Users */
+#testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#testimonials .row {
+    margin-top: 20px;
+}
+
+.col-md-4 {
+    margin: 30px auto;
+}
+
+.customer {
+    margin-top: 20px;
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+
+.customer:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+}
+
+.user {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.customer img {
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid white;
+}
+
+.customer h3 {
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+
+/* About Section */
+#about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(images/background_pattern.png);
+}
+
+#about .btn {
+    margin-top: 20px;
+}
+
+.about-left {
+    padding-left: 60px !important;
+}
+
+#about-right {
+    width: 25%;
+    float: right;
+    border: 3px solid #007bff;
+    margin: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-content {
+    padding-top: 10px;
+    padding-right: 200px;
+}
+
+.about-content-right {
+    padding-left: 30px;
+}
+
+.about-content-right ul {
+    padding-left: 20px;
+}
+
+.about-content-right h2 {
+    margin-bottom: 15px;
+}
+
+/* Table */
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* About Page */
+#about-details {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#enhancements {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.enhance-img {
+    margin-bottom: 20px;
+}
+
+/* Sign Up Page */
+#friendsForm,
+#signupForm {
+    margin: 20px;
+    min-height: 60vh;
+}
+
+#signupForm {
+    padding-bottom: 280px;
+}
+
+.hideme {
+    display: none !important;
+}
+
+/* Friends List */
+#friendsList {
+    margin-top: 20px;
+}
+#contact {
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #333333;
+    padding: 5px;
+    color: white;
+}
+
+.footer-text {
+    padding-top: 5px;
+}
